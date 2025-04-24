@@ -1,0 +1,40 @@
+/* Barra de navegacion */
+
+#navbar-container {
+    position: relative;
+    background-color: transparent;
+    opacity: 0.8;
+    backdrop-filter: blur(40px);
+    border-radius: 1rem;
+}
+
+#navbar-container a {
+    text-decoration: none;
+    margin: auto;
+}
+
+#navbar-container a:hover {
+    color: rgb(65, 114, 76)
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 1rem;
+    z-index: 10;
+}
+
+.logo img {
+    border-radius: 50%;
+
+}
+
+.ser-cont {
+    font-size: 2rem;
+}
+
+/*--media query--*/

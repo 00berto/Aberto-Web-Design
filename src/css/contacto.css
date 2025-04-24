@@ -1,0 +1,6 @@
+.cont-contacto {
+    background-image: url('/public_html/fondo/backgroung_contacto.jpeg');
+    background-size: cover;
+    background-repeat: repeat-x;
+    object-fit: cover;
+}

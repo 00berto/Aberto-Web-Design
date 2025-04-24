@@ -1,0 +1,89 @@
+/* -------------------- TIPOGRAFÍA Y ESTILO -------------------- */
+.second-line-ser {
+    font-style: italic;
+    font-size: 18px;
+    color: #3d7d5ecc;
+    font-weight: 500;
+}
+
+.servicios p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    max-width: 100%;
+}
+
+.div-titulo {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.div-titulo p {
+    padding-bottom: 0.2rem;
+}
+
+
+.divgrande strong {
+    color: #41724c;
+    font-size: 1.1rem;
+}
+
+.divgrande a,
+.btn-enviar {
+    color: #41724c;
+    /* font-size: 1.1rem; */
+
+}
+
+
+
+/* -------------------- LISTAS y TEXTOS -------------------- */
+ul.h2 {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.h2>li {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* -------------------- ESTILO DE CAJAS -------------------- */
+.service-box {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+/* -------------------- ANIMACIONES -------------------- */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-up.visible {
+    animation: fadeUp 1s ease-out forwards;
+}
