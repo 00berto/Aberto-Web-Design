@@ -1,5 +1,5 @@
 #slogan {
-    background-image: url('//public_html/fondo/background_slogan.png');
+    background-image: url('/src/image/background_slogan.png');
     background-size: cover;
     background-repeat: repeat-x;
     background-position: center;
@@ -12,7 +12,7 @@
 
 .second-line {
     font-style: italic;
-    font-size: 40px;
+    /* font-size: 40px; */
     color: #3d7d5ecc;
     font-weight: 500;
 

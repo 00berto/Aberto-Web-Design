@@ -1,6 +1,6 @@
 /* main CSS del proyecto*/
 
-@import url("/src/css/main.css");
+@import url("/src/css/base.css");
 @import url("/src/css/barraNav.css");
 @import url("/src/css/slogan.css");
 @import url("/src/css/servicio.css");
