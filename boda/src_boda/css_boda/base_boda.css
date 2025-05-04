@@ -12,7 +12,7 @@ body {
 /* Tipografías y base */
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #333;
     background-color: #FFFFFF;
     margin: 0;
@@ -20,45 +20,53 @@ body {
     line-height: 1.6;
 }
 
-/* H1 romántico */
+/* Textos y enlaces */
+
 h1,
 .h1 {
     font-family: 'Alex Brush', cursive;
     font-size: 48px;
     color: #FFFFFF;
-    text-shadow: #D8A7B1 0px 0px 5px, #D8A7B1 0px 0px 10px, #D8A7B1 0px 0px 15px;
+    text-shadow: #F5F0E6 0px 0px 5px, #F5F0E6 0px 0px 10px, #F5F0E6 0px 0px 15px;
     margin-bottom: 1rem;
 }
 
-/* H2 elegante */
 h2,
 .h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-    color: #9BA88D;
-    /* Verde salvia */
+    /* color: #9BA88D;  Verde salvia */
+    /* color: #F5F0E6;  blanco roto*/
+    color: #CC7254;
+
     margin-bottom: 1.5rem;
 }
 
-/* Textos y enlaces */
+
 p,
 a {
     font-family: 'Raleway', sans-serif;
     /* font-size: 18px; */
-    color: #333;
+    /* color: #333;
+    color: #F5F0E6; */
+    color: white;
     /* margin-bottom: 1.25rem; */
     text-decoration: none;
 }
 
 /* Botón */
-.button {
+.button,
+.btn-success {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #9BA88D;
     /* Verde salvia */
-    color: #fff;
+
+
+    background-color: #CC7254;
+    color: #F5F0E6;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 8px;
@@ -66,8 +74,11 @@ a {
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: #7f8f72;
+.button:hover,
+.btn-success:hover {
+    background-color: #F5F0E6;
+    color: black;
+
 }
 
 /* Decorativo: bordes o elementos con dorado */
@@ -81,4 +92,31 @@ a {
     border: 4px double #D6C28E;
     padding: 2rem;
     border-radius: 12px;
+}
+
+footer {
+    color: black;
+}
+
+.foot {
+    background-color: #9BA88D;
+    color: black;
+    font-size: 1.75rem;
+
+}
+
+footer a {
+    color: #333;
+}
+
+/* Animation */
+.fade-up {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 3s ease;
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0);
 }

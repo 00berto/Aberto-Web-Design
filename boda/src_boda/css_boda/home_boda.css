@@ -1,5 +1,5 @@
 .fondo-boda {
-    background-image: url("/boda/src_boda/image_boda/Arco_flores.jpeg");
+    background-image: url("/boda/src_boda/image_boda/arco_mobile.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -12,7 +12,9 @@
     color: white;
     font-weight: 500;
     text-align: center;
-    text-shadow: #D8A7B1 0px 0px 5px, #D8A7B1 0px 0px 10px, #D8A7B1 0px 0px 15px;
+    /*background-color: #CC7254;*/
+    /*terracotta*/
+    text-shadow: #CC7254 0px 0px 5px, #CC7254 0px 0px 10px, #CC7254 0px 0px 15px;
 
 }
 
@@ -21,13 +23,52 @@
     color: white;
     position: relative;
     background-color: #e0657e5b;
+    /* rosa claro */
+    background-color: #9EAF8E;
+    /*verde salvia*/
 }
 
-.imagen-nascosta {
-    background-image: url("/boda/src_boda/image_boda/rosas.jpeg");
+.imagen-nascosta,
+.imagen-nascosta-mesa,
+.imagen-nascosta-playa {
+    background-image: url("/boda/src_boda/image_boda/rosas_mobile.png");
     background-size: cover;
     background-position: center;
     background-position: bottom;
     background-attachment: fixed;
     height: 100%;
+}
+
+.imagen-nascosta-mesa {
+    background-image: url("/boda/src_boda/image_boda/mesa_mobile.png");
+    background-position: center;
+}
+
+.imagen-nascosta-playa {
+    background-image: url("/boda/src_boda/image_boda/playa_mobile.png");
+    background-position: bottom;
+}
+
+/* Media Query */
+
+@media (min-width: 768px) {
+    .fondo-boda {
+        background-image: url("/boda/src_boda/image_boda/arco_laptop.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+
+    .imagen-nascosta {
+        background-image: url("/boda/src_boda/image_boda/rosas_laptop.png");
+    }
+
+    .imagen-nascosta-playa {
+        background-image: url("/boda/src_boda/image_boda/playa_laptop.png");
+    }
+
+    .imagen-nascosta-mesa {
+        background-image: url("/boda/src_boda/image_boda/mesa_laptop.png");
+    }
 }

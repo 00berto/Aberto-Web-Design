@@ -18,7 +18,7 @@ h1,
 .h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3rem;
     color: #3D7D5E;
     margin-bottom: 1rem;
 }
@@ -27,7 +27,7 @@ h2,
 .h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #2D2D2D;
     margin-bottom: 2rem;
 }
@@ -36,7 +36,7 @@ h3,
 .h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #3D7D5E;
     margin-bottom: 0.5rem;
 }
@@ -46,7 +46,7 @@ h5,
 .love {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: #2D2D2D;
     margin-bottom: 0.5rem;
 }
@@ -54,16 +54,21 @@ h5,
 p,
 a {
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 600px;
     color: #000000;
     margin: 0 auto 2rem;
 }
 
+.txt {
+    font-weight: 800;
+
+}
+
 .button {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #6FCF97;
     color: #fff;
     padding: 0.75rem 1.5rem;
@@ -82,32 +87,32 @@ a {
 
     h1,
     .h1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     h2,
     .h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     h3,
     .h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     h5,
     .h5 {
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     p,
     a {
-        font-size: 16px;
+        font-size: 1rem;
         max-width: 90%;
     }
 
     .button {
-        font-size: 14px;
+        font-size: 1rem;
         padding: 0.5rem 1rem;
     }
 }
@@ -117,32 +122,32 @@ a {
 
     h1,
     .h1 {
-        font-size: 26px;
+        font-size: 1.625rem;
     }
 
     h2,
     .h2 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     h3,
     .h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     h5,
     .h5 {
-        font-size: 13px;
+        font-size: 0.875rem;
     }
 
     p,
     a {
-        font-size: 15px;
+        font-size: 0.95rem;
         max-width: 95%;
     }
 
     .button {
-        font-size: 13px;
+        font-size: 0.875rem;
         padding: 0.5rem 0.875rem;
     }
 }

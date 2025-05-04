@@ -1,0 +1,66 @@
+.fondo-cumple {
+    background-image: url("/cumple/src_cumple/image_cumple/tarta_mobile.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+
+/* .titulo {
+    color: white;
+    position: relative;
+    background-image: linear-gradient(to right, #ff6b6b, #feca57, #4db6ac, #8c9eff);
+} */
+
+.titulo {
+    color: white;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Un fondo oscuro ligeramente transparente */
+    padding: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra suave */
+    /* O para un efecto de relieve: */
+}
+
+.imagen-nascosta,
+.imagen-nascosta-info {
+    background-image: url("/cumple/src_cumple/image_cumple/globo_mobile.png");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.imagen-nascosta-info {
+    background-image: url("/cumple/src_cumple/image_cumple/globo2_mobile.jpeg");
+    background-position: center;
+
+}
+
+.formulario {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ----MEDIA QUERYS----*/
+
+@media (min-width: 768px) {
+    .fondo-cumple {
+        background-image: url("/cumple/src_cumple/image_cumple/tarta_laptop.png");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+
+    .imagen-nascosta {
+        background-image: url("/cumple/src_cumple/image_cumple/globo2_laptop.jpeg");
+    }
+
+    .imagen-nascosta-info {
+        background-image: url("/cumple/src_cumple/image_cumple/globo2_laptop.jpeg");
+    }
+}

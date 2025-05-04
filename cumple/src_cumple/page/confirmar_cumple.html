@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollo de paginas web de contacto personalizadas para empresas y negocios.">
+    <meta name="keywords" content="paginas web, desarrollo web, diseño web, personalizadas, empresas, negocios">
+
+    <!--typografy-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Luckiest+Guy&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!--import-->
+    <link rel="stylesheet" href="/cumple/src_cumple/css_cumple/main_cumple.css">
+    <link rel="icon" href="/src/image/logo/favicon.svg" type="image/x-icon">
+
+    <title>Cumpleaño</title>
+    <meta name="author" content="Alberto Zani">
+
+</head>
+
+<body>
+    <section class=" sticky-top">
+        <!-- MENU -->
+        <nav class="navbar navbar-expand-lg bg-white w-100" id="navbar-container">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="/index.html">
+                    <img src="/src/image/logo/logo-aberto-192x192.png" alt="Logo" width="50" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/cumple/index_cumple.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/cumple/src_cumple/page/info_cumple.html">Informaciones
+                                Utiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Confirmar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- DONDE -->
+    <section class="container-fluid titulo w-100 py-3">
+        <div class="container text-center my-5 decorativo-doble ">
+
+            <div class="container my-5">
+                <div class="row justify-content-center formulario">
+                    <div class="col-md-6">
+                        <h2 class="display-1 fade-flip">Confirmá tu asistencia 🎉</h2>
+                        <h3 class="display-2 fade-up">o simplemente mandame un mensaje</h3>
+
+
+                        <form action="enviar.php" method="POST" class="py-5">
+                        </form>
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div class="mb-3 fade-right">
+                            <label for="nombre" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="mb-3 fade-left">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3 fade-down">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4"
+                                placeholder="¡Nos vemos ahí!"></textarea>
+                        </div>
+
+                        <div class="d-grid fade-up">
+                            <button type="submit" class="btn btn-success">Confirmar asistencia</button>
+                        </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-center pt-2">
+        <p class="text-muted">Create with &#127892; by <a href="/index.html">
+                <img src="/src/image/logo/favicon.svg" width="18px" height="18px">Aberto Web Design</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbPHwdlCvtbN9YQlJZL+AjLva5lKQeF56iNMwFFnWjCuglerkXDjikWPswG"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="/cumple/src_cumple/page/cumple.js"></script>
+
+</body>
+
+</html>

@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/boda/src_boda/css_boda/main_boda.css">
     <link rel="icon" href="/src/image/logo/favicon.svg" type="image/x-icon">
 
-    <title>Boda El - Ella</title>
+    <title>Boda</title>
     <meta name="author" content="Alberto Zani">
 
 </head>
@@ -34,7 +34,7 @@
         <!-- MENU -->
         <nav class="navbar navbar-expand-lg bg-white w-100" id="navbar-container">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="#">
+                <a class="navbar-brand logo" href="/index.html">
                     <img src="/src/image/logo/logo-aberto-192x192.png" alt="Logo" width="50" height="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -43,14 +43,16 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navMenu">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Informaciones Utiles</a>
+                            <a class="nav-link text-dark" href="/boda/src_boda/page/informaciones.html">Informaciones
+                                Utiles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Confirmar</a>
+                            <a class="nav-link text-dark" href="/boda/src_boda/page/contacta.html">Confirmar /
+                                Contactar</a>
                         </li>
-                        <!-- <li class="nav-item"> -->
+                        <!-- <li class="nav-item"> --
                         <a class="nav-link text-dark" href="#">Contacta con los novio</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -61,18 +63,19 @@
     <section class="container-fluid fondo-boda w-100">
         <div class=" d-flex justify-content-center align-items-center pt-3">
             <div class="container text-center mt-5">
-                <h1 class="display-4">Bienvenidos a la Boda de EL y ELLA</h1>
-                <p class="lead pt-2">Estamos emocionados de poder compartir este día especial.</p>
+                <h1 class="display-4 fade-up">Bienvenidos a la Boda de EL y ELLA</h1>
+                <p class="lead pt-2 fade-up">Estamos emocionados de poder compartir este día especial.</p>
             </div>
         </div>
     </section>
 
     <!--TITULO-->
     <section class="titulo py-4 container-fluid">
-        <div class="container text-center mt-5 decorativo-doble">
-            <h3 class="display-2">! Nos Casamos ¡</h3>
-            <h2 class="display-1">26 Abril 2025</h2>
-            <h3 class="display-2">En el lugar mas bonito del mundo</h3>
+        <div class="container text-center my-5 decorativo-doble">
+            <h3 class="display-2 fade-up">¡ Nos Casamos !</h3>
+            <h2 class="display-1 fade-up"><span class="fecha"></span></h2>
+            <h3 class="display-2 fade-up">En el lugar mas bonito del mundo</h3>
+        </div>
     </section>
 
     <div class="imagen-nascosta"></div>
@@ -80,18 +83,23 @@
     <!--TEXTO-->
     <section class="texto titulo py-4 container-fluid">
         <div class="container text-center mt-5 ">
-            <p class="display-4">Estamos muy felices de compartir este día tan especial con todos ustedes. Esperamos
+            <p class="display-4 fade-up">Estamos muy felices de compartir este día tan especial con todos ustedes.
+                Esperamos
                 que
                 disfruten de la celebración tanto como nosotros disfrutamos de planearla.</p>
-            <p class="display-4">¡Nos vemos pronto!</p>
-            <h2 class="display-4">Con cariño, EL y ELLA</h2>
+            <p class="display-4 fade-up">¡Nos vemos pronto!</p>
+            <h2 class="display-4 fade-up">Con cariño,<span class="novios"></span></h2>
 
         </div>
     </section>
 
     <footer class="text-center pt-2">
-        <p class="text-muted">Create with &#127892; by <a href="/index.html"><img src="/src/image/logo/favicon.svg"
-                    width="18px" height="18px"> Aberto Web Design</a>
+        <div class=" container-fluid foot text-center fade-up">
+            <p><span class="novios"></span> - <span class="fecha"></span></p>
+        </div>
+
+        <p class="text-muted">Create with &#127892; by <a href="/index.html">
+                <img src="/src/image/logo/favicon.svg" width="18px" height="18px">Aberto Web Design</a>
         </p>
     </footer>
 
@@ -103,7 +111,7 @@
         integrity="sha384-0pUGZvbPHwdlCvtbN9YQlJZL+AjLva5lKQeF56iNMwFFnWjCuglerkXDjikWPswG"
         crossorigin="anonymous"></script>
 
-    <!-- <script type="module" src="/src/main.js"></script> -->
+    <script type="module" src="/boda/src_boda/page/boda.js"></script>
 
 </body>
 
