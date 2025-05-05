@@ -1,3 +1,6 @@
+@import url(/boda/src_boda/css_boda/variables.css);
+
+
 html,
 body {
     margin: 0;
@@ -13,8 +16,8 @@ body {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.125rem;
-    color: #333;
-    background-color: #FFFFFF;
+    color: var(--negro-suave);
+    background-color: var(--blanco);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -26,8 +29,8 @@ h1,
 .h1 {
     font-family: 'Alex Brush', cursive;
     font-size: 48px;
-    color: #FFFFFF;
-    text-shadow: #F5F0E6 0px 0px 5px, #F5F0E6 0px 0px 10px, #F5F0E6 0px 0px 15px;
+    color: var(--blanco);
+    text-shadow: var(--blanco-roto) 0px 0px 5px, var(--blanco-roto) 0px 0px 10px, var(--blanco-roto) 0px 0px 15px;
     margin-bottom: 1rem;
 }
 
@@ -38,7 +41,7 @@ h2,
     font-weight: 600;
     /* color: #9BA88D;  Verde salvia */
     /* color: #F5F0E6;  blanco roto*/
-    color: #CC7254;
+    color: var(--terracota);
 
     margin-bottom: 1.5rem;
 }
@@ -50,7 +53,7 @@ a {
     /* font-size: 18px; */
     /* color: #333;
     color: #F5F0E6; */
-    color: white;
+    color: var(--blanco);
     /* margin-bottom: 1.25rem; */
     text-decoration: none;
 }
@@ -61,12 +64,12 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1rem;
-    background-color: #9BA88D;
+    background-color: var(--salvia);
     /* Verde salvia */
 
 
-    background-color: #CC7254;
-    color: #F5F0E6;
+    background-color: var(--terracota);
+    color: var(--blanco-roto);
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 8px;
@@ -76,20 +79,20 @@ a {
 
 .button:hover,
 .btn-success:hover {
-    background-color: #F5F0E6;
-    color: black;
+    background-color: var(--blanco-roto);
+    color: var(--negro);
 
 }
 
 /* Decorativo: bordes o elementos con dorado */
 .decorativo {
-    border: 2px solid #D6C28E;
+    border: 2px solid var(--dorado);
     padding: 1rem;
     border-radius: 12px;
 }
 
 .decorativo-doble {
-    border: 4px double #D6C28E;
+    border: 4px double var(--dorado);
     padding: 2rem;
     border-radius: 12px;
 }
@@ -99,14 +102,14 @@ footer {
 }
 
 .foot {
-    background-color: #9BA88D;
+    background-color: var(--salvia);
     color: black;
     font-size: 1.75rem;
 
 }
 
 footer a {
-    color: #333;
+    color: var(--negro-suave);
 }
 
 /* Animation */

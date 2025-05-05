@@ -1,4 +1,4 @@
-var nombre = " Cumpleaner@ ";
+var nombre = " Cumpleañer@ ";
 var fecha = "04 Mayo 2025";
 
 var elementosUp = document.querySelectorAll(".fade-up");
